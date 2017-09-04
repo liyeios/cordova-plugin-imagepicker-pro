@@ -32,7 +32,7 @@ typedef enum : NSUInteger {
 }
 
 - (void) requestReadPermission:(CDVInvokedUrlCommand *)command {
-	NSLog{@"ddddd"};
+
     // [PHPhotoLibrary requestAuthorization:]
     // this method works only when it is a first time, see
     // https://developer.apple.com/library/ios/documentation/Photos/Reference/PHPhotoLibrary_Class/
